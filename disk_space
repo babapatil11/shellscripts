@@ -1,0 +1,8 @@
+#!/bin/bash
+
+SPACE=`df -h . | awk -F " " '{print $(Nf-1)}' | tail -1 | sed "s/%//g"`
+
+if [ $SPACE -gt 90 ];
+then 
+echo " DISK SPACE iS 90"
+fi
