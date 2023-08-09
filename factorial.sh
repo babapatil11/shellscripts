@@ -1,4 +1,5 @@
 #!/bin/bash
+#This script is for finding the factorial of the input number
 
 NUM=$1
 FACTORIAL=1

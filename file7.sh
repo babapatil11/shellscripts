@@ -1,6 +1,5 @@
 #!/bin/bash
-
-
+#This script is for finding biggest of the given 3 numbers
 NUM1=$1
 NUM2=$2
 NUM3=$3
