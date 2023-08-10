@@ -1,5 +1,5 @@
 #!/bin/bash
-
+#Script for checking addition substraction multiplication & division of given numbers.
 NUM1=$1
 NUM2=$2
 if [ $# -ne 2 ]
