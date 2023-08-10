@@ -6,7 +6,6 @@ MEM=`free -h`
 
 CPUINFO=`cat /proc/cpuinfo`
 
-
 echo " ################ DISKSPACEOFTHESYSTEM ############# "
 echo "$DISK"
 
@@ -19,3 +18,4 @@ echo " ################################################### "
 echo " ############# CPUINFO ############################## "
 echo "$CPUINFO"
 echo " ####################################################### "
+echo "SYSTEM INFO"
