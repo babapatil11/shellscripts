@@ -1,6 +1,5 @@
 #!/bin/bash
-
-
+#Script for finding the sum of given Number
 echo "ENTER THE VALUE"
 read NUM
 SUM=0
@@ -11,3 +10,4 @@ do
 	VAR=`expr $VAR - 1`
 done
 echo "SUM OF $NUM IS $SUM"
+
